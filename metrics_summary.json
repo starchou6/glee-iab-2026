@@ -1,0 +1,287 @@
+{
+ "A": {
+  "span": [
+   "2026-08-14 13:40:37",
+   "2026-08-25 22:25:27"
+  ],
+  "bargaining": {
+   "games": 40313,
+   "moves": 172859,
+   "games_with_result": 40313,
+   "outcomes": {
+    "agreement": 39961,
+    "no_deal": 263,
+    "timeout": 43,
+    "walked_away": 46
+   },
+   "opponent_types": {
+    "agent": 20140,
+    "hidden": 20140,
+    "human": 33
+   },
+   "norm_payoff_mean": 0.45385770963783395,
+   "norm_payoff_median": 0.4512,
+   "norm_payoff_se": 0.0008560260449418882,
+   "norm_payoff_by_opponent": {
+    "agent": {
+     "n": 20140,
+     "mean": 0.4544141584672294
+    },
+    "hidden": {
+     "n": 20140,
+     "mean": 0.4533794929245283
+    },
+    "human": {
+     "n": 33,
+     "mean": 0.40611241212121213
+    }
+   },
+   "agreement_rate": 0.9912683253541041,
+   "agreed_round_median": 3,
+   "my_offer_accept_rate": 0.21271848270732616,
+   "my_offer_n": 83359,
+   "my_offer_accepted_n": 17732,
+   "history_my_offer_n": 65327,
+   "history_my_offer_accepted_n": 0,
+   "agreements_on_own_offer": 17732,
+   "agreements_on_opponent_offer": 22229,
+   "agreements_with_unknown_proposer": 0,
+   "opponent_offer_share_median": 0.555556,
+   "opp_offer_n": 85405,
+   "first_offer_mine_mean": 0.7372140169716402,
+   "first_offer_mine_n": 36178,
+   "opp_response_ms": {
+    "p50": 1618,
+    "p90": 2730,
+    "n": 63124
+   }
+  },
+  "persuasion": {
+   "games": 40322,
+   "moves": 831734,
+   "games_with_result": 40322,
+   "outcomes": {
+    "completed": 40231,
+    "timeout": 91
+   },
+   "opponent_types": {
+    "hidden": 20147,
+    "agent": 20166,
+    "human": 9
+   },
+   "norm_payoff_mean": 0.46924123307375626,
+   "norm_payoff_median": 0.2,
+   "norm_payoff_se": 0.0028403288665364923,
+   "norm_payoff_by_opponent": {
+    "hidden": {
+     "n": 20147,
+     "mean": 0.46993051074601677
+    },
+    "agent": {
+     "n": 20166,
+     "mean": 0.46863049191708817
+    },
+    "human": {
+     "n": 9,
+     "mean": 0.2947222222222222
+    }
+   },
+   "seller_pos_rate_when_high": 1.0,
+   "seller_lie_rate_when_low": 0.4285850895973564,
+   "seller_high_n": 224418,
+   "seller_low_n": 188231,
+   "buyer_buy_rate": 0.45781310394384245,
+   "buyer_decisions_n": 385487
+  },
+  "negotiation": {
+   "games": 40333,
+   "moves": 333891,
+   "games_with_result": 40333,
+   "outcomes": {
+    "no_deal": 17458,
+    "agreement": 19621,
+    "walked_away": 3201,
+    "timeout": 53
+   },
+   "opponent_types": {
+    "agent": 20256,
+    "hidden": 20049,
+    "human": 28
+   },
+   "norm_payoff_mean": 0.09483583291060257,
+   "norm_payoff_median": 0.0,
+   "norm_payoff_se": 0.0007163506523509691,
+   "norm_payoff_by_opponent": {
+    "agent": {
+     "n": 20256,
+     "mean": 0.09450420417489468
+    },
+    "hidden": {
+     "n": 20049,
+     "mean": 0.09514866025404425
+    },
+    "human": {
+     "n": 28,
+     "mean": 0.11074998511904761
+    }
+   },
+   "agreement_rate": 0.4864750948354945,
+   "agreed_round_median": 6,
+   "roles": {
+    "seller": 20300,
+    "buyer": 20033
+   },
+   "seller_agreed_price_over_V_median": 1.191125,
+   "seller_agreement_rate": 0.4635467980295567,
+   "buyer_agreed_price_over_V_median": 0.88,
+   "buyer_agreement_rate": 0.5097089801826985
+  }
+ },
+ "B": {
+  "span": [
+   "2026-08-14 14:26:36",
+   "2026-08-24 09:17:01"
+  ],
+  "negotiation": {
+   "games": 1368,
+   "moves": 10658,
+   "games_with_result": 1368,
+   "outcomes": {
+    "agreement": 767,
+    "no_deal": 506,
+    "timeout": 10,
+    "walked_away": 85
+   },
+   "opponent_types": {
+    "agent": 700,
+    "hidden": 667,
+    "human": 1
+   },
+   "norm_payoff_mean": 0.09476786639924464,
+   "norm_payoff_median": 0.0285,
+   "norm_payoff_se": 0.003605605365871721,
+   "norm_payoff_by_opponent": {
+    "agent": {
+     "n": 700,
+     "mean": 0.08919094868571428
+    },
+    "hidden": {
+     "n": 667,
+     "mean": 0.10066283431409295
+    },
+    "human": {
+     "n": 1,
+     "mean": 0.06666666666666667
+    }
+   },
+   "agreement_rate": 0.560672514619883,
+   "agreed_round_median": 4,
+   "roles": {
+    "buyer": 680,
+    "seller": 688
+   },
+   "seller_agreed_price_over_V_median": 1.15,
+   "seller_agreement_rate": 0.5712209302325582,
+   "buyer_agreed_price_over_V_median": 0.8866666666666667,
+   "buyer_agreement_rate": 0.55
+  },
+  "bargaining": {
+   "games": 1377,
+   "moves": 3426,
+   "games_with_result": 1377,
+   "outcomes": {
+    "agreement": 1373,
+    "no_deal": 1,
+    "timeout": 3
+   },
+   "opponent_types": {
+    "hidden": 724,
+    "agent": 653
+   },
+   "norm_payoff_mean": 0.46148961794480753,
+   "norm_payoff_median": 0.473684,
+   "norm_payoff_se": 0.003739905897408276,
+   "norm_payoff_by_opponent": {
+    "hidden": {
+     "n": 724,
+     "mean": 0.45859508979281766
+    },
+    "agent": {
+     "n": 653,
+     "mean": 0.46469886508422664
+    }
+   },
+   "agreement_rate": 0.9970951343500363,
+   "agreed_round_median": 2,
+   "my_offer_accept_rate": 0.3380024360535932,
+   "my_offer_n": 1642,
+   "my_offer_accepted_n": 555,
+   "history_my_offer_n": 1084,
+   "history_my_offer_accepted_n": 0,
+   "agreements_on_own_offer": 555,
+   "agreements_on_opponent_offer": 818,
+   "agreements_with_unknown_proposer": 0,
+   "opponent_offer_share_median": 0.56515,
+   "opp_offer_n": 1784,
+   "first_offer_mine_mean": 0.5870499454722493,
+   "first_offer_mine_n": 1027,
+   "opp_response_ms": {
+    "p50": 14008,
+    "p90": 22035,
+    "n": 965
+   }
+  },
+  "persuasion": {
+   "games": 1362,
+   "moves": 26882,
+   "games_with_result": 1362,
+   "outcomes": {
+    "completed": 1330,
+    "timeout": 32
+   },
+   "opponent_types": {
+    "hidden": 717,
+    "agent": 645
+   },
+   "norm_payoff_mean": 0.4645356093979442,
+   "norm_payoff_median": 0.25,
+   "norm_payoff_se": 0.015216587509324035,
+   "norm_payoff_by_opponent": {
+    "hidden": {
+     "n": 717,
+     "mean": 0.4700244072524407
+    },
+    "agent": {
+     "n": 645,
+     "mean": 0.4584341085271318
+    }
+   },
+   "seller_pos_rate_when_high": 0.6423583131882891,
+   "seller_lie_rate_when_low": 0.1667222963951936,
+   "seller_high_n": 7446,
+   "seller_low_n": 5992,
+   "buyer_buy_rate": 0.5562867215041128,
+   "buyer_decisions_n": 12765
+  },
+  "llm": {
+   "calls": 40609,
+   "fallbacks": 357,
+   "fallback_reasons": {
+    "llm_error": 217,
+    "invalid_output": 107,
+    "timeout": 33
+   },
+   "fallback_rate": 0.008714543768002734,
+   "latency_ms": {
+    "p50": 5675,
+    "p90": 13142,
+    "p99": 20011
+   },
+   "input_tokens_mean": 2,
+   "output_tokens_mean": 201.0639749716707,
+   "cache_read_mean": 2376.2594745007264,
+   "cost_usd_total": 1021.362793000021,
+   "wall_hours_total": 80.1173025
+  }
+ }
+}

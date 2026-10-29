@@ -1,0 +1,15 @@
+# Lessons v2026-08-26T20:50:21 — distilled from 4107 of Agent B's own games (40966 moves, 1% rule-fallback).
+
+bargaining (1377 games observed):
+- Opponents' own offers demand a median 59% of the pot for themselves; asks far above that band are routinely rejected.
+- Your offers asked a median 58% for yourself and were accepted 0% of the time — price closer to the opponents' demonstrated band.
+- Median game length observed: 2 rounds; deadlocks pay 0 — converge before patience runs out.
+
+negotiation (1368 games observed; 688 as seller, 680 as buyer):
+- Deals you accepted closed at a median 0.95x your own valuation.
+- Never accept a loss-making price; late in the game any profitable deal beats walking away (payoffs are undiscounted).
+
+persuasion (1362 games observed):
+- Across revealed purchases, sellers' positive signals were honest 74% of the time (12701/17187) — calibrate trust accordingly.
+- Observed overall buy rate: 49%.
+- As seller: lying above the buyer-indifference rate collapses future sales; as buyer: probe early so the posterior can move off the prior.

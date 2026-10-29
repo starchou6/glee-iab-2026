@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+*.aux
+*.out
+*.pdf
+!paper/figs/*.pdf
+trajectories*.jsonl
+results_*.jsonl
+paper/
