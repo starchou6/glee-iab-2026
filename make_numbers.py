@@ -89,8 +89,9 @@ for fam, tag in (("bargaining", "Bar"), ("negotiation", "Neg"), ("persuasion", "
         continue
     diff = mb - ma
     half = 1.96 * (sa ** 2 + sb ** 2) ** 0.5
-    macros[f"Diff{tag}"] = f"{diff:+.3f}"
-    macros[f"Diff{tag}PP"] = f"{100 * diff:+.1f}"
+    # A difference that rounds to zero prints unsigned, not as "-0.000".
+    macros[f"Diff{tag}"] = f"{diff:+.3f}" if round(diff, 3) else "0.000"
+    macros[f"Diff{tag}PP"] = f"{100 * diff:+.1f}" if round(100 * diff, 1) else "0.0"
     macros[f"CI{tag}"] = f"[{diff - half:+.3f}, {diff + half:+.3f}]"
 
 # C13: denominators for behavioral statistics
