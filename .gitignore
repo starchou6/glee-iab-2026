@@ -8,3 +8,4 @@ __pycache__/
 trajectories*.jsonl
 results_*.jsonl
 paper/
+!docs/*.pdf
