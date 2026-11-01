@@ -5,13 +5,12 @@ NeurIPS 2026 Workshop on Interpreting Agent Behavior (IAB) competition paper
 *A Cost-and-Behavior Case Study of Two GLEE Agents with Design-Time and Runtime
 Behavioral Interpretation* (Jing Zhou, Microworld Co., Ltd.).
 
-## Paper and poster
+## Poster
 
-- Paper (camera-ready PDF): [`docs/Zhou2026_GLEE_IAB_paper.pdf`](docs/Zhou2026_GLEE_IAB_paper.pdf)
 - Poster (61 × 85 cm portrait PDF): [`docs/Zhou2026_GLEE_IAB_poster.pdf`](docs/Zhou2026_GLEE_IAB_poster.pdf)
 
 The paper cites commit `cffe01f` of this repository for the code and data it
-describes; later commits only add these documents.
+describes; later commits only add the poster.
 
 ## Agents
 
